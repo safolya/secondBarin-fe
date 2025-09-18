@@ -6,7 +6,7 @@ import type { ReactElement } from "react";
    text:string;
    startIcon?:ReactElement;
    endIcon?:ReactElement
-   onClick:()=>void;
+   onClick?:()=>void;
 }
  
 const defaultStyles= "rounded-md"

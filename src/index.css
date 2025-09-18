@@ -4,10 +4,25 @@
 
 @theme {
   /* This is where you define your custom colors */
-  --color-brand-purple-600: #5046e4;
+  --color-brand-purple-200: #d9ddee;
   --color-brand-purple-300: #e0e7fe;
-  --color-brand-purple-500: #3e38a7;
-  --text-brand-purple-600: #5046e4;
+  --color-brand-purple-500: #9492db;
+  --text-brand-purple-600: #7164c0; 
+  --color-brand-gray-100: #eeeeef;
+  --color-brand-gray-200: #e6e9ed
+  
+ 
+  /* colors:{
+    gray:{
+     100:"#eeeeef",
+     200:"#e6e9ed"
+    },
+    purple:{
+       200:"#d9ddee",
+       500:"#9492db",
+       600:"#7164c0"
+    }
+  } */
   
   /* You can also override existing theme values */
   --color-blue-500: #3b82f6; /* This is the default, but you could change it */
