@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* (600), #e0e7fe(300) , #3e38a7(500) */
+
+@theme {
+  /* This is where you define your custom colors */
+  --color-brand-purple-600: #5046e4;
+  --color-brand-purple-300: #e0e7fe;
+  --color-brand-purple-500: #3e38a7;
+  --text-brand-purple-600: #5046e4;
+  
+  /* You can also override existing theme values */
+  --color-blue-500: #3b82f6; /* This is the default, but you could change it */
+}

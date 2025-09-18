@@ -8,17 +8,24 @@ import type { ReactElement } from "react";
    endIcon?:ReactElement
    onClick:()=>void;
 }
-//#5046e4(600), #e0e7fe(300) , #3e38a7(500) 
-
+ 
+const defaultStyles= "rounded-md"
 
 const variantStyles={
-    "primary":,
-    "secondary":""
+    "primary":"bg-brand-purple-600 text-white hover:bg-brand-purple-700",
+    "secondary":"bg-purple-300 text-brand-purple-600 hover:bg-purple-500"
+}
+
+const variantSize={
+    "sm":"py-1 px-2",
+    "md":"py-2 px-4",
+    "lg":"py-4 px-6"
 }
 
 export const Button = (props:Buttonprops)=>{
     return (
-        <button></button>
+        <button className={`${variantStyles[props.variant]} ${defaultStyles} ${variantSize[props.size]}`}>
+            {props.startIcon}{props.text}{props.endIcon}</button>
     )
 }
 
